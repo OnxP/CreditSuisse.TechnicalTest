@@ -17,6 +17,8 @@ namespace ConsoleApp2
             var results = InstructionEvalulation.Evalulation(dictionary);
 
             Console.WriteLine(results);
+
+            //Output reads : 348086909
         }
 
         private static Dictionary<string,Instruction> LoadDictionary(string fileName)
